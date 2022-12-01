@@ -1,8 +1,8 @@
 import sys
 from mido import MidiFile, MidiTrack, Message
 from typing import List
-from GeneticAlgorithm.genetic_algorithm import GeneticAlgorithm
-from Parser.Parser import Parser
+from genetic_algorithm import GeneticAlgorithm
+from Parser import Parser
 
 
 class Accompaniment:
